@@ -136,13 +136,14 @@ export default {
 	justify-content: center;
 	align-items: center;
 	.Select-time {
-		width: 50rem;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		.Slider {
-			width: 50%;
+			min-width: 20%;
+			max-width: 50%;
 			margin-bottom: 1rem;
 			input {
 				width: 100%;
@@ -151,21 +152,24 @@ export default {
 		.timeText {
 			border: 2px solid #8b8b8b;
 			border-radius: 20px;
-			padding: 1rem 0 1rem 1rem;
+			padding: 1rem 0;
 			text-align: center;
 			font-size: 2.5rem;
-			width: 20%;
+			min-width: 10%;
+			max-width: 20%;
 		}
 		.time {
 			margin-top: 5rem;
 		}
 	}
 	.Click-actions {
+		touch-action: manipulation;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		.Click-button {
+			touch-action: manipulation;
 			display: flex;
 			justify-content: center;
 			align-items: center;
