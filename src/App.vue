@@ -46,12 +46,14 @@ export default {
 	background-image: url("./assets/img/background.png");
 }
 body {
+	touch-action: manipulation;
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 html {
+	touch-action: manipulation;
 	width: 100%;
 	height: 100%;
 	margin: 0;

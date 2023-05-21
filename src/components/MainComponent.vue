@@ -184,16 +184,19 @@ export default {
 			font-size: 2.5rem;
 		}
 		.Click-button:hover {
+			touch-action: manipulation;
 			transform: scale(1.1);
 			background: rgba(43, 43, 43, 0.88);
 			cursor: pointer;
 		}
 		.disabled-button {
+			touch-action: manipulation;
 			opacity: 0.7; /* Уменьшение прозрачности */
 			pointer-events: none; /* Изменение курсора */
 			cursor: default;
 		}
 		.clicked {
+			touch-action: manipulation;
 			animation: scaleUp 0.1s;
 		}
 		.button-text {
