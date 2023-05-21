@@ -37,6 +37,7 @@ export default {
 	font-weight: 500;
 }
 #app {
+	touch-action: manipulation;
 	width: 100%;
 	height: 100%;
 	margin: 0;
