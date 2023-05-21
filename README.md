@@ -1,5 +1,7 @@
 # clicker-app
 
+# how it looks like - https://time-clicker-edohxpvny-ca1doz.vercel.app/
+
 ## Project setup
 ```
 npm install
